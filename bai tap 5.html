@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a = parseInt(prompt("nhập điểm kiểm tra"));
+    var b = parseInt(prompt("nhập điểm thi giữa kỳ"));
+    var c = parseInt(prompt("nhập điểm thi cuối kỳ"));
+    var trungbinh = ((a + b * 2 + c * 3)/ 6)
+    if (trungbinh >= 9) {
+        alert("học sinh giỏi");
+    } else if (trungbinh >= 5 && trungbinh < 8) {
+        alert("học sinh khá");
+    } else if (trungbinh < 5 && trungbinh >= 0) {
+        alert("học sinh trung bình");
+    }
+    alert(trungbinh)
+</script>
+</body>
+</html>

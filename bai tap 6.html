@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var doanhso = parseInt(prompt("nhập tổng doanh số"));
+    var hoahong;
+    if (doanhso <= 100) {
+        hoahong = doanhso * (5 * 0.1) / 100;
+    }else if (doanhso <= 300){
+        hoahong = doanhso * (10 * 0.1) / 100;
+    }else if (doanhso > 300){
+        hoahong = doanhso * (20 * 0.1) / 100 ;
+    }
+    alert("nhận được " + hoahong + " tiền hoa hồng");
+</script>
+</body>
+</html>
